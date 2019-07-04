@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>카페 - 베이커리</title>
+
+    <style>
+
+        @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+        @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+        h1{
+            font-family: 'Hanna', sans-serif;
+            font-weight: lighter;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        /* table 전체 CSS */
+        .red {
+            border-collapse: collapse;
+        }  
+        .red tr {
+            border-left: 2px solid #000000;
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+            border-right: 2px solid #000000;
+        }
+        .red td{
+            padding: 5px;
+        }
+        .red td:hover {
+            color: #ff0000;
+        }
+
+
+        /* header 글씨 ( <카페 - 베이커리> ) */
+        h1{
+            font-family: 'Nanum Pen Script', cursive;
+            font-size: 48px;
+        }
+
+        /* 사진 클릭시 사이트 이동 글씨 */
+        h2{
+            font-family: 'Nanum Pen Script', cursive;
+            font-weight: lighter;
+            font-size: 16px;
+        }
+
+        /* 본문 설명문 내용 글씨 */
+        h5{
+            font-family: 'Hanna', sans-serif;
+            font-weight: lighter;
+            font-size: 15px;
+        }
+
+        html, body { 
+            height:100%; 
+            margin:0px; 
+        }
+
+        /* button CSS */
+        button {
+            background-color: #ffffff;
+            border : 0px;
+        }
+
+        /* body에 사진 넣는곳
+        body{
+             background-image: url("imgs/1.jpg"); 
+        }   */
+        
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <table style="width:100%; height:5%">
+        <tr>
+            <td style = "width:10%; text-align: center" >
+                <button id="back_btn" style=" margin-left:35px"><img src="imgs/left.jpg" style="width:50px; height:45px"></button>
+            </td>
+            <td style="width:90%">
+                <h1 style="text-align: center; margin-right: 140px">
+                    <img src="imgs/cafe.jpg" style="width:50px; height:45px">
+                    &nbsp;< 카페 - 베이커리 >&nbsp;
+                    <img src="imgs/bakery.jpg" style="width:50px; height:45px">
+                </h1>
+            </td>      
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- container -->
+
+    <!-- 1page -->
+    <table class="red" id="page1" align="center" border="1" style="width:80%; height:85%">
+        <!-- 메이비 카페 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?entry=plt&id=19820966&query=%EB%A9%94%EC%9D%B4%EB%B9%84%EC%B9%B4%ED%8E%98" target=_blank>
+                    <img id="maybe" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%" >
+                    <h5>가게 : 메이비카페<br><br>
+                        번호 : 02-859-3073<br><br>
+                        주소 : 서울 구로구 디지털로32나길 5<br><br>
+                        시간 : 매일 08:30 ~ 23:30<br><br>
+                        메뉴 : 프렌치토스트, 트러플 베이컨 크림 파스타<br><br>
+                        설명 : 한쪽 벽면을 가득 채운 꽃무늬의 벽화가 인상적인 브런치 레스토랑입니다.</h5>
+                </td>   
+
+        <!-- 데이즈앤데이즈 -->
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?entry=plt&id=36395374&query=%EB%8D%B0%EC%9D%B4%EC%A6%88%EC%95%A4%EB%8D%B0%EC%9D%B4%EC%A6%88" target=_blank>
+                    <img id="days" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 데이즈앤데이즈<br><br>
+                        번호 : 02-869-0077<br><br>
+                        주소 : 서울 관악구 시흥대로 578<br><br>
+                        시간 : 월요일 12:00 ~ 23:00<br><br>
+                        메뉴 : 아메리카노, 콜드브루, 생과일주스<br><br>
+                        설명 : 직접 베이커리를 생산하여 맛좋고, 질좋은 베이커리를 즐기실 수 있습니다.</h5>
+                </td>   
+            </tr>
+
+            
+
+        <!-- 스타벅스 구로호텔점 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=31399930" target=_blank>
+                    <img id="bucks" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 스타벅스 구로호텔점<br><br>
+                        번호 : 02-758-8555<br><br>
+                        주소 : 서울 구로구 디지털로32길 72<br><br>
+                        시간 : 월요일 ~ 토요일 07:00 ~ 23:00<br>
+                        &emsp; &emsp;일요일 08:00 ~ 22:00<br><br>
+                        메뉴 : 아메리카노, 콜드브루, 브런치<br><br>
+                        설명 : 구로호텔 1층에 위치한 스타벅스 입니다.</h5>
+                </td>
+
+        <!-- 고마워 케이크 -->
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=37486059" target=_blank>
+                    <img id="thanku" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>[가게] : 고마워케이크<br><br>
+                        [번호] : 02-6344-3906<br><br>
+                        [주소] : 서울 구로구 디지털로 300<br><br>
+                        [시간] : 매일 10:30 ~ 22:30<br><br>
+                        [메뉴] : 아메리카노, 로얄밀크티, 크림콜드브루<br><br>
+                        [설명] : 고마워케이크는 도레도레의 프리미엄 수제케이크 브랜드 입니다.</h5>
+                </td>   
+            </tr>
+
+        <!-- 설빙 구로G밸리점 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=36015911" target=_blank>
+                    <img id="sulbing" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 설빙 구로G밸리점<br><br>
+                        번호 : 02-6344-3959<br><br>
+                        주소 : 서울 구로구 디지털로 300<br><br>
+                        시간 : 매일 11:00 ~ 23:00<br><br>
+                        메뉴 : 인절미설빙, 팥인절미설빙, 치즈설빙, 인절미토스트<br><br>
+                        설명 : 디저트/사이트 메뉴로 츄러스, 토스트, 브레드, 떡볶이피자 등이 있습니다.</h5>
+                </td>
+
+        <!-- 바르바커피 구로디지털점 -->
+                <td style="width:15%; text-align: center">
+                        <a href = "https://store.naver.com/restaurants/detail?id=32489475" target=_blank>
+                    <img id="bareba" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 바르바커피 구로디지털점<br><br>
+                        번호 : 02-854-8900<br><br>
+                        주소 : 서울 관악구 시흥대로 550<br><br>
+                        시간 : 매일 00:00 ~ 24:00<br><br>
+                        메뉴 : 커피프라페, 음료프라페, 스무디<br><br>
+                        설명 : 24시간 매장으로 넓고 깔끔한 인테리어로 꾸며진 카페입니다.</h5>
+                </td>   
+            </tr>
+
+    </table>
+
+
+    <!-- 2page -->
+    <table class="red" id="page2" align="center" border="1" style="width:85%; height:85%; display: none">
+        <!-- 투썸플레이스 구로디지털단지역점 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=652569471&tab=fsasReview&photoIndex=0" target=_blank>
+                    <img id="two" style="margin-top:20px; width:100%; height:180px"></a><br>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%" >
+                    <h5>가게 : 투썸플레이스 구로디지털단지역점<br><br>
+                        번호 : 02-868-5588<br><br>
+                        주소 : 서울 관악구 시흥대로 554<br><br>
+                        시간 : 매일 07:00 ~ 02:00<br><br>
+                        메뉴 : 아메리카노, 아이스티, 에이드, 쉐이크, 콜드브루, 라떼, 티, 주스<br><br>
+                        설명 : 공부할 수 있는 환경과 쾌적한 장소를 제공하고 있습니다..</h5>
+                </td>   
+
+            <!-- 스테이 보드게임카페 -->
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=36513605&tab=fsasReview&photoIndex=0" target=_blank>
+                    <img id="stay" style="margin-top:20px; width:100%; height:180px"></a><br>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%" >
+                    <h5>가게 : 스테이 보드게임카페<br><br>
+                        번호 : 02-6013-0230<br><br>
+                        주소 : 서울 관악구 조원로2길 51<br><br>
+                        시간 : 평일 16:00 ~ 02:00, 주말 16:00 ~ 02:00<br><br>
+                        메뉴 : 아메리카노, 카페라떼, 핫초코, 아이스티, 티, 음료, 맥주<br><br>
+                        설명 : 포커, 훌라, 홀덤 전용테이블과 칩이 구비되어있습니다. 인기보드게임 상당수를 보유하고 있습니다.</h5>
+                </td>   
+            </tr>
+
+            <!-- 레더라 구로지밸리몰점 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=35637952&tab=fsasReview&photoIndex=0" target=_blank>
+                    <img id="ldr" style="margin-top:20px; width:100%; height:180px"></a><br>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%" >
+                    <h5>가게 : 레더라 구로지밸리몰점<br><br>
+                        번호 : 02-6344-3905<br><br>
+                        주소 : 서울 구로구 디지털로 300<br><br>
+                        시간 : 평일 08:30 ~ 22:30, 주말(공휴일) 16:00 ~ 02:00<br><br>
+                        메뉴 : 스위스클래식(초콜렛 음료), 아메리카노, 프라페, 샌드위치, 아이스크림<br><br>
+                        설명 : 디저트초콜렛 카페입니다. 레더라는 프랑스 프리미엄 초콜렛 브랜드입니다.</h5>
+                </td>   
+
+            <!-- 파리바게뜨 구로디지털점 -->
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=33342628&tab=fsasReview&photoIndex=0" target=_blank>
+                    <img id="paba" style="margin-top:20px; width:100%; height:180px"></a><br>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%" >
+                    <h5>가게 : 파리바게뜨 구로디지털점<br><br>
+                        번호 : 02-6672-0505<br><br>
+                        주소 : 서울 구로구 디지털로 285<br><br>
+                        시간 : 평일 07:00 ~ 22:30<br><br>
+                        메뉴 : 피자빵, 에그타르트, 각종 고로켓, 초코칩 트위스트, 뜯어먹는 롤치즈식빵, 햄치즈 포카챠<br><br>
+                        설명 : 행복한 빵 문화를 만들어 전하는 파리바게뜨입니다.</h5>
+                </td>   
+            </tr>
+            <!-- 폴바셋 구로지밸리몰점 -->
+            <tr>
+                <td style="width:15%; text-align: center">
+                    <a href = "https://store.naver.com/restaurants/detail?id=35575619&tab=fsasReview&photoIndex=0&tabPage=1" target=_blank>
+                    <img id="full" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 폴바셋 구로지밸리몰점<br><br>
+                        번호 : 02-6344-3788<br><br>
+                        주소 : 서울 구로구 디지털로 300<br><br>
+                        시간 : 평일 08:00 ~ 22:00 , 주말 09:00 ~ 21:00<br><br>
+                        메뉴 : 카페라떼, 아메리카노, 상하목장 아이스크림<br><br>
+                        설명 : 아이스크림라떼와 아이스크림이 맛있는 카페입니다.</h5>
+                </td>
+
+            <!-- 반한달 -->
+                <td style="width:15%; text-align: center">
+                        <a href = "https://store.naver.com/restaurants/detail?id=1184317576" target=_blank>
+                    <img id="ban" style="margin-top:20px; width:100%; height:180px"></a>
+                    <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                </td>
+                <td style="width:35%">
+                    <h5>가게 : 반한달<br><br>
+                        번호 : 070-4063-5563<br><br>
+                        주소 : 서울 관악구 남부순환로151길 42<br><br>
+                        시간 : 목요일 ~ 일요일 12:00 ~ 20:00<br>
+                        &emsp; &emsp;월요일 ~ 수요일 : 휴무<br><br>
+                        메뉴 : 마카롱, 머랭쿠키, 에그타르트<br><br>
+                        설명 : 수제마카롱이 정말 맛있는 디저트카페입니다.</h5>
+                </td>
+            </tr>
+        </table>
+
+        <!-- 3Page -->
+        <table class="red" id="page3" align="center" border="1" style="width:85%; height:85%; display: none">
+                <!-- 메이지커피 -->
+                <tr>
+                    <td style="width:15%; text-align: center">
+                        <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=1870963849&query=%EB%A9%94%EC%9D%B4%EC%A7%80%EC%BB%A4%ED%94%BC" target=_blank>
+                        <img id="mage" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : 메이지커피<br><br>
+                            번호 : 0508-4200-8050<br><br>
+                            주소 : 서울 관악구 난곡로 363-1<br><br>
+                            시간 : 매일 11:30 ~ 24:00 (주문마감 23:30)<br><br>
+                            메뉴 : 아메리카노, 콜드브류, 드랍커피<br><br>
+                            설명 : 스트롱하고 화사한 맛의 커피와 독특한 분위기를 지닌 카페입니다.</h5>
+                    </td>
+        
+                <!-- Frame676 -->
+                    <td style="width:15%; text-align: center">
+                            <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=1670107646&query=Frame676" target=_blank>
+                        <img id="frame" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : Frame676<br><br>
+                            번호 : 070-8807-6046<br><br>
+                            주소 : 서울 동작구 시흥대로 676<br><br>
+                            시간 : 평일 11:00 ~ 22:00<br>
+                            &emsp; &emsp;금요일 ~ 일요일 11:30 ~ 22:30<br><br>
+                            메뉴 : 로제 파스타, 안심스테이크, 스테이크피자<br><br>
+                            설명 : Frame676은 예술공간과 맛있는 음식, 카페메뉴가 함께있는 휴식 공간입니다.</h5>
+                    </td>
+                </tr>
+
+                <!-- 커피메이플 -->
+                <tr>
+                    <td style="width:15%; text-align: center">
+                        <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=21398209&query=%EC%BB%A4%ED%94%BC%EB%A9%94%EC%9D%B4%ED%94%8C" target=_blank>
+                        <img id="maple" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : 커피메이플<br><br>
+                            번호 : 02-833-0026<br><br>
+                            주소 : 서울 영등포구 신풍로 19<br><br>
+                            시간 : 매일 10:00 ~ 23:00 (명절 휴무)<br><br>
+                            메뉴 : 에스프레소, 아메리카노, 라떼<br><br>
+                            설명 : 이쁜 앞마당이 있는 주택을 개조하여 만든 카페입니다.</h5>
+                    </td>
+        
+                <!-- 스튜디오레이크 -->
+                    <td style="width:15%; text-align: center">
+                            <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=1184317576&query=%EB%B0%98%ED%95%9C%EB%8B%AC" target=_blank>
+                        <img id="studio" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : 스튜디오레이크<br><br>
+                            번호 : 010-2520-9864<br><br>
+                            주소 : 서울 금천구 디지털로 210<br><br>
+                            시간 : 매일 17:00 ~ 01:00 (일요일 휴무)<br><br>
+                            메뉴 : 치즈 플레이트, 자메이카 통다리구이, 와인, 수제맥주<br><br>
+                            설명 : 카페와 바가 합쳐진 곳으로 빈티지한 인테리어 풍과 연말모임을 할 수 있는 아늑한 분위기를 가지고 있습니다.</h5>
+                    </td>
+                </tr>
+
+                <!-- 타미하우스 구디점 -->
+                <tr>
+                    <td style="width:15%; text-align: center">
+                        <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=13475482&query=%EB%8D%98%ED%82%A8%EB%8F%84%EB%84%88%EC%B8%A0%20%EA%B5%AC%EB%A1%9C%ED%83%9C%ED%8F%89%EC%96%91%EB%AC%BC%EC%82%B0%EC%A0%90" target=_blank>
+                        <img id="tommy" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : 타미하우스 구디점<br><br>
+                            번호 : 02-856-0707<br><br>
+                            주소 : 서울 구로구 디지털로26길 90<br><br>
+                            시간 : 평일 08:00 ~ 20:00<br>
+                            &emsp; &emsp;주말 09:00 ~ 15:00<br><br>
+                            메뉴 : 커피, 생과일쥬스, 샌드위치, 햄버거<br><br>
+                            설명 : 커피와 샌드위치, 햄버거를 맛볼 수 있는 타미하우스입니다. 배달도 가능합니다.</h5>
+                    </td>
+        
+                <!-- 베브릿지 구로디지털점 -->
+                    <td style="width:15%; text-align: center">
+                            <a href = "https://store.naver.com/restaurants/detail?entry=pll&id=1184317576&query=%EB%B0%98%ED%95%9C%EB%8B%AC" target=_blank>
+                        <img id="bridge" style="margin-top:20px; width:100%; height:180px"></a>
+                        <h2 style="height : 10px">사진 클릭시 사이트 이동</h2>
+                    </td>
+                    <td style="width:35%">
+                        <h5>가게 : 베브릿지 구로디지털점<br><br>
+                            번호 : 02-2082-2644<br><br>
+                            주소 : 서울 구로구 디지털로 288<br><br>
+                            시간 : 평일 07:00 ~ 23:00<br>
+                            &emsp; &emsp;주말 08:30 ~ 21:30<br><br>
+                            메뉴 : 1리터 아메리카노, 누텔라쉐이크, 쩐쭈나이차<br><br>
+                            설명 : 베블릿지에서는 전 세계 30여개국의 매력적인 음료를 맛보실 수 있습니다.</h5>
+                    </td>
+                </tr>
+        </table>
+
+
+    <hr>
+
+     <!-- footer -->
+    <table style="width:100%; height:10%">
+        <tr>
+            <td style = "width:46%; text-align: right" >
+                <button id="back_btn2"><img src="imgs/left.jpg" style="width:45px; height:30px"></button>
+            </td>
+            <td style="width: 8%; text-align: center">
+            <input id="page_value" value="1" type="text" readonly style="width:20px; height:20px; text-align: center">
+            </td>
+            <td style="width:46%; text-align: left">
+                <button id="next_btn2"><img src="imgs/right.jpg" style="width:45px; height:30px"></button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+    <!-- script -->
+    <script type="text/javascript">
+
+        var i = 0;
+        var next = null;
+        var index = 1;
+
+        // 1page id 값
+        var maybe = document.querySelector("#maybe");
+        var days = document.querySelector("#days");
+        var bucks = document.querySelector("#bucks");
+        var thanku = document.querySelector("#thanku");
+        var sulbing = document.querySelector("#sulbing");
+        var bareba = document.querySelector("#bareba");
+
+        //2page id 값
+        var two = document.querySelector("#two");
+        var stay = document.querySelector("#stay");
+        var ldr = document.querySelector("#ldr");
+        var paba = document.querySelector("#paba");
+        var full = document.querySelector("#full");
+        var ban = document.querySelector("#ban");
+
+        //3page id 값
+        var mage = document.querySelector("#mage");
+        var frame = document.querySelector("#frame");
+        var maple = document.querySelector("#maple");
+        var studio = document.querySelector("#studio");
+        var tommy = document.querySelector("#tommy");
+        var bridge = document.querySelector("#bridge");
+
+            
+        
+        //자동이미지 넘기기(1page)
+        function showNext1(){
+            if( i===6) {
+                i = 0;
+            }
+            i++;
+            maybe.src = `imgs/maybe${i}.jpg`;
+            days.src = `imgs/days${i}.jpg`;
+            bucks.src = `imgs/bucks${i}.jpg`;
+            thanku.src = `imgs/thanku${i}.jpg`;
+            sulbing.src = `imgs/sulbing${i}.jpg`;
+            bareba.src = `imgs/bareba${i}.jpg`;
+
+            next = window.setTimeout(showNext1, 2000);
+            
+            
+        }
+
+        //자동이미지 넘기기(2page)
+        function showNext2(){
+            if( i===6) {
+                i = 0;
+            }
+            i++;
+            two.src = `imgs/two${i}.jpg`;
+            stay.src = `imgs/stay${i}.jpg`;
+            ldr.src = `imgs/ldr${i}.jpg`;
+            paba.src = `imgs/paba${i}.jpg`;
+            full.src = `imgs/full${i}.jpg`;
+            ban.src = `imgs/ban${i}.jpg`;
+
+            next = window.setTimeout(showNext2, 2000);
+
+            
+        }
+        
+        //자동이미지 넘기기(3page)
+        function showNext3(){
+            if( i===6) {
+                i = 0;
+            }
+            i++;
+            mage.src = `imgs/mage${i}.jpg`;
+            frame.src = `imgs/frame${i}.jpg`;
+            maple.src = `imgs/maple${i}.jpg`;
+            studio.src = `imgs/studio${i}.jpg`;
+            tommy.src = `imgs/tommy${i}.jpg`;
+            bridge.src = `imgs/bridge${i}.jpg`;
+
+            next = window.setTimeout(showNext3, 2000);
+        }
+
+        if(next===null){
+            showNext1();
+        }
+
+        
+
+
+        // 이전페이지 클릭시 이전 테이블로 이동 ( 1페이지에선 오류메시지 출력)
+        var back_btn2 = document.querySelector("#back_btn2");
+        back_btn2.addEventListener("click", function(event){
+            if(page_value.value > 0){
+                if(page_value.value === "3"){
+                    i = 0;
+                    page2.style.display = "";
+                    page3.style.display = "none";
+                    page_value.value--;
+                    window.scrollTo(0,0);
+
+                    if(next != null){
+                        window.clearTimeout(next);
+                        next = null;
+                    }
+                    if(next===null){
+                        showNext2();
+                    }
+                } else if(page_value.value === "2"){
+                    i = 0;
+                    page1.style.display = "";
+                    page2.style.display = "none";
+                    page_value.value--;
+                    window.scrollTo(0,0);
+
+                    if(next != null){
+                        window.clearTimeout(next);
+                        next = null;
+                    }
+                    if(next===null){
+                        showNext1();
+                    }
+                } else{
+                    alert("[오류] 첫번째 페이지입니다");
+                }
+            }
+        });
+
+        // 다음페이지 클릭시 다음 테이블로 이동( 3페이지에서 오류메시지 출력)
+        var next_btn2 = document.querySelector("#next_btn2");
+        next_btn2.addEventListener("click", function(event){
+            if(page_value.value<4){
+                if(page_value.value==="1"){
+                    i = 0;
+                    page1.style.display = "none";
+                    page2.style.display = "";
+                    page_value.value++;
+
+                    //다음페이지 버튼 클릭시 2Page 이미지 자동전환
+                    if(next != null){
+                        window.clearTimeout(next);
+                        next = null;
+                    }
+                    if(next===null){
+                        showNext2();
+                    }
+                    window.scrollTo(0,0);
+                } else if(page_value.value==="2"){
+                    i = 0;
+                    page2.style.display = "none";
+                    page3.style.display = "";
+                    page_value.value++;
+
+                    //다음페이지 버튼 클릭시 3Page 이미지 자동전환
+                    if(next != null){
+                        window.clearTimeout(next);
+                        next = null;
+                    }
+                    if(next===null){
+                        showNext3();
+                    }
+                    window.scrollTo(0,0);
+                } else {
+                    alert("[오류] 마지막 페이지입니다.");
+                }
+            }         
+        });
+
+        
+        
+    </script>
+    
+</body>
+</html>
